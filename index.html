@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reisebüro Roth Chur</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<!-- Header -->
+<header class="hero-section">
+  <!-- Video Background -->
+  <div class="video-background">
+    <video autoplay muted loop playsinline>
+      <source src="img/videos/1.mp4" type="video/mp4">
+      <!-- <source src="videos/2.webm" type="video/webm"> -->
+      <!-- Fallback image if video doesn't load -->
+      <img src="img/hero-fallback.jpg" alt="Bus traveling through Europe">
+    </video>
+  </div>
+  
+  <div class="overlay"></div>
+  <div class="particles"></div>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/RothChurLogo.png" alt="Roth Chur" height="40" class="logo-bounce" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link hover-underline" href="#">Our Trips</a></li>
+          <li class="nav-item"><a class="nav-link hover-underline" href="#">Bus Rental</a></li>
+          <li class="nav-item"><a class="nav-link hover-underline" href="#">Menu</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero-content container">
+    <h1 class="title-animate">Comfortable Bus Tours Across Europe</h1>
+    <p class="subtitle-animate">Decades of trusted travel with Roth Chur</p>
+    <a href="#tours" class="btn btn-primary btn-hero pulse-animate">
+      Explore Tours <i class="fas fa-arrow-right"></i>
+    </a>
+    <div class="scroll-indicator">
+      <div class="mouse"></div>
+    </div>
+  </div>
+</header>
+
+<section class="trips-section">
+  <div class="container">
+    <div class="section-title">
+      <h2 class="title-reveal">Our Trips</h2>
+      <p class="subtitle-reveal">Explore our popular day trips, multi-day tours, and music excursions.</p>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card trip-card hover-grow">
+          <div class="card-img-wrapper">
+            <img src="img/asset/InnsbruckShopping.jpg" class="card-img-top" alt="Day Trip">
+            <div class="card-overlay"></div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Innsbruck Shopping</h5>
+            <p class="card-text">A relaxing day of shopping and sightseeing.</p>
+            <button class="btn btn-primary btn-float">Learn More</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card trip-card hover-grow">
+          <div class="card-img-wrapper">
+            <img src="img/asset/ItalianMarketsTour.jpg" class="card-img-top" alt="Music Tour">
+            <div class="card-overlay"></div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Vienna Music Tour</h5>
+            <p class="card-text">Experience Europe's classical music capital.</p>
+            <button class="btn btn-primary btn-float">Learn More</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card trip-card hover-grow">
+          <div class="card-img-wrapper">
+            <img src="img/asset/ViennaMusicTour.jpg" class="card-img-top" alt="Multi-day Tour">
+            <div class="card-overlay"></div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Italian Markets Tour</h5>
+            <p class="card-text">A 3-day culinary adventure to Como and Milan.</p>
+            <button class="btn btn-primary btn-float">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Bus rental section -->
+ <!-- HTML -->
+<section class="rental-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="title-reveal">Busvermietung</h2>
+      <p class="subtitle-reveal">Mieten Sie unseren Komfort für Ihre nächste Reise</p>
+      <div class="header-decoration"></div>
+    </div>
+
+    <div class="rental-options row g-4">
+      <div class="col-lg-4">
+        <div class="option-card hover-float">
+          <div class="icon-circle">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3>Vereine & Gruppen</h3>
+          <p>Perfekt für Sportvereine, Chöre oder Gemeindegruppen. Gemeinsam reisen, gemeinsam erleben.</p>
+          <div class="highlight-bar"></div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4">
+        <div class="option-card hover-float">
+          <div class="icon-circle">
+            <i class="fas fa-briefcase"></i>
+          </div>
+          <h3>Firmen & Events</h3>
+          <p>Professioneller Transport für Mitarbeiterausflüge, Messen oder Firmenevents.</p>
+          <div class="highlight-bar"></div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4">
+        <div class="option-card hover-float">
+          <div class="icon-circle">
+            <i class="fas fa-music"></i>
+          </div>
+          <h3>Musik & Kultur</h3>
+          <p>Spezialisierte Transportlösungen für Bands, Orchester und Kulturgruppen.</p>
+          <div class="highlight-bar"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="features-grid">
+      <div class="feature-item slide-in-left">
+        <div class="feature-icon">
+          <i class="fas fa-couch"></i>
+        </div>
+        <h4>Komfort</h4>
+        <p>Hochwertige Sitze, Klimaanlage und ausreichend Beinfreiheit für entspanntes Reisen.</p>
+      </div>
+      
+      <div class="feature-item slide-in-right">
+        <div class="feature-icon">
+          <i class="fas fa-shield-alt"></i>
+        </div>
+        <h4>Sicherheit</h4>
+        <p>Modernste Sicherheitstechnik und erfahrene Fahrer für Ihren Schutz.</p>
+      </div>
+      
+      <div class="feature-item slide-in-left">
+        <div class="feature-icon">
+          <i class="fas fa-route"></i>
+        </div>
+        <h4>Flexibilität</h4>
+        <p>Individuelle Routenplanung nach Ihren Wünschen und Bedürfnissen.</p>
+      </div>
+      
+      <div class="feature-item slide-in-right">
+        <div class="feature-icon">
+          <i class="fas fa-wifi"></i>
+        </div>
+        <h4>Modernes Equipment</h4>
+        <p>WLAN, Entertainment-Systeme und Getränkeservice auf Anfrage.</p>
+      </div>
+    </div>
+
+    <div class="rental-form-container">
+      <div class="form-wrapper">
+        <h3 class="form-title">Jetzt unverbindlich anfragen</h3>
+        <p class="form-subtitle">Wir erstellen Ihnen gerne ein individuelles Angebot</p>
+        
+        <form class="rental-form">
+          <div class="form-floating">
+            <input type="text" class="form-control" id="name" placeholder="Name" required>
+            <label for="name">Name / Organisation</label>
+          </div>
+          
+          <div class="form-floating">
+            <input type="email" class="form-control" id="email" placeholder="E-Mail" required>
+            <label for="email">E-Mail Adresse</label>
+          </div>
+          
+          <div class="form-floating">
+            <input type="tel" class="form-control" id="phone" placeholder="Telefon">
+            <label for="phone">Telefon (optional)</label>
+          </div>
+          
+          <div class="form-floating">
+            <select class="form-select" id="bus-type">
+              <option selected disabled>Bitte wählen</option>
+              <option value="standard">Standard-Bus (bis 40 Personen)</option>
+              <option value="premium">Premium-Bus (bis 30 Personen)</option>
+              <option value="minibus">Minibus (bis 15 Personen)</option>
+              <option value="other">Andere Anfrage</option>
+            </select>
+            <label for="bus-type">Gewünschter Bustyp</label>
+          </div>
+          
+          <div class="form-floating">
+            <textarea class="form-control" id="message" placeholder="Nachricht" style="height: 120px"></textarea>
+            <label for="message">Ihre Anfrage / Besondere Wünsche</label>
+          </div>
+          
+          <button type="submit" class="btn btn-primary submit-btn">
+            <span class="btn-text">Anfrage senden</span>
+            <i class="fas fa-paper-plane btn-icon"></i>
+          </button>
+        </form>
+      </div>
+      
+      <div class="form-decoration">
+        <div class="decoration-circle"></div>
+        <div class="decoration-bus">
+          <i class="fas fa-bus"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--About section  -->
+<!-- HTML -->
+<section class="about-section">
+  <div class="container">
+    <div class="timeline-wrapper">
+      <div class="timeline-bar"></div>
+      
+      <div class="timeline-item left-animate">
+        <div class="timeline-year">1985</div>
+        <div class="timeline-content">
+          <h3>Unsere Anfänge</h3>
+          <p>Gegründet als Familienunternehmen mit einem einzigen Bus, der täglich zwischen Chur und Zürich pendelte.</p>
+        </div>
+      </div>
+      
+      <div class="timeline-item right-animate">
+        <div class="timeline-year">1998</div>
+        <div class="timeline-content">
+          <h3>Erste Europa-Touren</h3>
+          <p>Erweiterung unseres Angebots mit internationalen Reisen nach Italien, Frankreich und Österreich.</p>
+        </div>
+      </div>
+      
+      <div class="timeline-item left-animate">
+        <div class="timeline-year">2010</div>
+        <div class="timeline-content">
+          <h3>Modernisierung der Flotte</h3>
+          <p>Investition in 12 neue Luxusbusse mit modernster Ausstattung für maximalen Komfort.</p>
+        </div>
+      </div>
+      
+      <div class="timeline-item right-animate">
+        <div class="timeline-year">Heute</div>
+        <div class="timeline-content">
+          <h3>Über 100.000 zufriedene Gäste</h3>
+          <p>Jährlich befördern wir tausende Reisende mit demselben Engagement wie am ersten Tag.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="experience-box zoom-animate">
+      <div class="experience-number">35+</div>
+      <div class="experience-text">Jahre Erfahrung</div>
+      <div class="experience-dots">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+    
+    <div class="personalized-service slide-up-animate">
+      <div class="service-icon">
+        <i class="fas fa-handshake"></i>
+      </div>
+      <h2>Persönlicher Service seit 1985</h2>
+      <p>Was uns auszeichnet? Jede Reise wird bei uns individuell geplant. Unser Team steht Ihnen persönlich zur Verfügung - von der ersten Anfrage bis zur sicheren Rückkehr.</p>
+      <div class="signature">
+        <img src="img/signature.png" alt="Familie Roth Unterschrift">
+        <div class="signature-text">Familie Roth & Team</div>
+      </div>
+    </div>
+    
+    <div class="testimonial-slider fade-in-animate">
+      <div class="testimonial active">
+        <div class="quote-icon">"</div>
+        <blockquote>
+          Seit 15 Jahren vertraue ich Roth Chur für unsere Vereinsreisen. Die persönliche Betreuung und Flexibilität sind unübertroffen!
+        </blockquote>
+        <div class="testimonial-author">
+          <img src="img/testimonial1.jpg" alt="Hans M." class="author-img">
+          <div class="author-info">
+            <div class="author-name">Hans Müller</div>
+            <div class="author-title">Vorsitzender Alpenchor Graubünden</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="testimonial">
+        <div class="quote-icon">"</div>
+        <blockquote>
+          Als Eventmanagerin arbeite ich mit vielen Busunternehmen zusammen - Roth Chur bietet das beste Preis-Leistungs-Verhältnis und geht auf jede Sonderwunsch ein.
+        </blockquote>
+        <div class="testimonial-author">
+          <img src="img/testimonial2.jpg" alt="Sarah K." class="author-img">
+          <div class="author-info">
+            <div class="author-name">Sarah Keller</div>
+            <div class="author-title">Eventmanagerin, Zürich</div>
+          </div>
+        </div>
+      </div>
+      
+      <button class="testimonial-nav prev"><i class="fas fa-chevron-left"></i></button>
+      <button class="testimonial-nav next"><i class="fas fa-chevron-right"></i></button>
+    </div>
+  </div>
+</section>
+
+<!-- Team gallery -->
+ <!-- HTML -->
+<section class="gallery-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="title-reveal">Unser Team & Flotte</h2>
+      <p class="subtitle-reveal">Die Menschen und Fahrzeuge hinter Roth Chur</p>
+      <div class="header-decoration"></div>
+    </div>
+
+    <div class="gallery-grid">
+      <!-- Founder Card -->
+      <div class="gallery-card founder-card hover-zoom">
+        <div class="image-wrapper">
+          <img src="img/1.jpg" alt="Gründer Familie Roth" class="gallery-image">
+          <div class="image-overlay"></div>
+        </div>
+        <div class="card-content">
+          <h3>Familie Roth</h3>
+          <p>Unsere Gründer seit 1985</p>
+          <div class="expand-btn">
+            <i class="fas fa-plus"></i>
+          </div>
+        </div>
+        <div class="full-description">
+          <button class="close-btn"><i class="fas fa-times"></i></button>
+          <div class="description-content">
+            <h3>Die Geschichte unserer Familie</h3>
+            <p>Was als bescheidenes Familienunternehmen mit einem einzigen Bus begann, ist heute ein etabliertes Reiseunternehmen. Die Werte von damals - persönlicher Service und Verlässlichkeit - gelten heute noch genauso wie am ersten Tag.</p>
+            <div class="founder-quote">
+              <i class="fas fa-quote-left"></i>
+              <p>"Für uns ist jeder Gast Teil der Familie. Diese Einstellung prägt unser Unternehmen seit Generationen."</p>
+              <div class="quote-author">- Markus Roth, Gründer</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Team Photo -->
+      <div class="gallery-card team-card hover-zoom">
+        <div class="image-wrapper">
+          <img src="img/2.jpg" alt="Roth Chur Team" class="gallery-image">
+          <div class="image-overlay"></div>
+        </div>
+        <div class="card-content">
+          <h3>Unser Team</h3>
+          <p>30 engagierte Mitarbeiter</p>
+          <div class="expand-btn">
+            <i class="fas fa-plus"></i>
+          </div>
+        </div>
+        <div class="full-description">
+          <button class="close-btn"><i class="fas fa-times"></i></button>
+          <div class="description-content">
+            <h3>Unser Team im Herzen der Alpen</h3>
+            <p>Von erfahrenen Reiseleitern bis zu unseren professionellen Fahrern - jedes Mitglied unseres Teams wird sorgfältig ausgewählt und regelmäßig geschult. Gemeinsam sorgen wir dafür, dass Ihre Reise unvergesslich wird.</p>
+            <ul class="team-stats">
+              <li><span>15+</span> Jahre durchschnittliche Betriebszugehörigkeit</li>
+              <li><span>100%</span> geprüfte Berufsfahrer</li>
+              <li><span>24/7</span> Erreichbarkeit während Ihrer Reise</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bus Gallery Items -->
+      <div class="gallery-card bus-card hover-zoom">
+        <div class="image-wrapper">
+          <img src="img/3.jpg" alt="Premium Reisebus" class="gallery-image">
+          <div class="image-overlay"></div>
+        </div>
+        <div class="card-content">
+          <h3>Premium Reisebus</h3>
+          <p>Für anspruchsvolle Reisen</p>
+          <div class="expand-btn">
+            <i class="fas fa-plus"></i>
+          </div>
+        </div>
+        <div class="full-description">
+          <button class="close-btn"><i class="fas fa-times"></i></button>
+          <div class="description-content">
+            <h3>Premium Komfort auf Rädern</h3>
+            <p>Unsere Premiumbusse bieten erstklassigen Komfort für lange Reisen. Ausstattungsmerkmale:</p>
+            <ul class="bus-features">
+              <li><i class="fas fa-couch"></i> Luxus-Sitze mit verstellbarer Rückenlehne</li>
+              <li><i class="fas fa-wifi"></i> Hochgeschwindigkeits-WLAN</li>
+              <li><i class="fas fa-utensils"></i> Minibar-Service</li>
+              <li><i class="fas fa-tv"></i> Entertainment-System</li>
+            </ul>
+            <div class="capacity-badge">Bis zu 40 Personen</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-card bus-card hover-zoom">
+        <div class="image-wrapper">
+          <img src="img/4.jpg" alt="Standard Reisebus" class="gallery-image">
+          <div class="image-overlay"></div>
+        </div>
+        <div class="card-content">
+          <h3>Standard Reisebus</h3>
+          <p>Zuverlässig und komfortabel</p>
+          <div class="expand-btn">
+            <i class="fas fa-plus"></i>
+          </div>
+        </div>
+        <div class="full-description">
+          <button class="close-btn"><i class="fas fa-times"></i></button>
+          <div class="description-content">
+            <h3>Bewährte Qualität</h3>
+            <p>Unsere Standardbusse bieten optimales Preis-Leistungs-Verhältnis für Gruppenreisen:</p>
+            <ul class="bus-features">
+              <li><i class="fas fa-chair"></i> Bequeme Sitze mit ausreichend Beinfreiheit</li>
+              <li><i class="fas fa-snowflake"></i> Klimaanlage</li>
+              <li><i class="fas fa-plug"></i> USB-Ladestationen</li>
+              <li><i class="fas fa-suitcase-rolling"></i> Großzügiger Gepäckraum</li>
+            </ul>
+            <div class="capacity-badge">Bis zu 50 Personen</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-card bus-card hover-zoom">
+        <div class="image-wrapper">
+          <img src="img/5.jpg" alt="Minibus" class="gallery-image">
+          <div class="image-overlay"></div>
+        </div>
+        <div class="card-content">
+          <h3>Minibus</h3>
+          <p>Flexibel für kleine Gruppen</p>
+          <div class="expand-btn">
+            <i class="fas fa-plus"></i>
+          </div>
+        </div>
+        <div class="full-description">
+          <button class="close-btn"><i class="fas fa-times"></i></button>
+          <div class="description-content">
+            <h3>Kompakt und vielseitig</h3>
+            <p>Ideal für kleine Gruppen oder individuelle Touren:</p>
+            <ul class="bus-features">
+              <li><i class="fas fa-car-alt"></i> Wendig für Stadtfahrten</li>
+              <li><i class="fas fa-euro-sign"></i> Kostengünstige Lösung</li>
+              <li><i class="fas fa-map-marked-alt"></i> Individuelle Routenplanung</li>
+              <li><i class="fas fa-parking"></i> Einfache Parkmöglichkeiten</li>
+            </ul>
+            <div class="capacity-badge">Bis zu 15 Personen</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-card workshop-card hover-zoom">
+        <div class="image-wrapper">
+          <img src="img/6.jpg" alt="Unsere Werkstatt" class="gallery-image">
+          <div class="image-overlay"></div>
+        </div>
+        <div class="card-content">
+          <h3>Unsere Werkstatt</h3>
+          <p>Wartung & Sicherheit</p>
+          <div class="expand-btn">
+            <i class="fas fa-plus"></i>
+          </div>
+        </div>
+        <div class="full-description">
+          <button class="close-btn"><i class="fas fa-times"></i></button>
+          <div class="description-content">
+            <h3>Sicherheit durch regelmäßige Wartung</h3>
+            <p>In unserer modernen Werkstatt sorgen zertifizierte Techniker dafür, dass alle Fahrzeuge stets in einwandfreiem Zustand sind:</p>
+            <ul class="workshop-features">
+              <li><i class="fas fa-calendar-check"></i> Jährliche Hauptuntersuchung</li>
+              <li><i class="fas fa-tools"></i> Monatliche Sicherheitschecks</li>
+              <li><i class="fas fa-shield-alt"></i> Tägliche Fahrzeuginspektionen</li>
+              <li><i class="fas fa-broom"></i> Gründliche Reinigung zwischen den Einsätzen</li>
+            </ul>
+            <div class="safety-badge">100% Sicherheitsrekord seit 1985</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- footer -->
+ <!-- HTML -->
+<footer class="site-footer">
+  <div class="footer-wave"></div>
+  
+  <div class="footer-main">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Contact Info -->
+        <div class="footer-col footer-contact slide-up">
+          <div class="footer-logo">
+            <img src="img/logo-white.png" alt="Roth Chur" height="50">
+          </div>
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>Musterstraße 123, 7000 Chur, Schweiz</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone-alt"></i>
+              <p>+41 81 123 45 67</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <p>info@rothchur.ch</p>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col footer-links slide-up">
+          <h3 class="footer-title">Quick Links</h3>
+          <ul class="footer-menu">
+            <li><a href="#">Startseite</a></li>
+            <li><a href="#">Unsere Reisen</a></li>
+            <li><a href="#">Busvermietung</a></li>
+            <li><a href="#">Über Uns</a></li>
+            <li><a href="#">Kontakt</a></li>
+            <li><a href="#">AGB</a></li>
+            <li><a href="#">Datenschutz</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="footer-col footer-newsletter slide-up">
+          <h3 class="footer-title">Newsletter</h3>
+          <p>Bleiben Sie auf dem Laufenden mit unseren Angeboten und Reisetipps.</p>
+          <form class="newsletter-form">
+            <div class="input-group">
+              <input type="email" placeholder="Ihre E-Mail Adresse" required>
+              <button type="submit">
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </div>
+          </form>
+          <div class="payment-methods">
+            <img src="img/visa.png" alt="Visa">
+            <img src="img/mastercard.png" alt="Mastercard">
+            <img src="img/twint.png" alt="TWINT">
+            <img src="img/postfinance.png" alt="PostFinance">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="footer-bottom-content">
+        <p class="copyright">&copy; 2023 Roth Chur. Alle Rechte vorbehalten.</p>
+        <div class="footer-bus">
+          <i class="fas fa-bus"></i>
+        </div>
+        <p class="made-with">
+          Made with <i class="fas fa-heart"></i> in Switzerland
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

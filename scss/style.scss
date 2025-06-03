@@ -1,0 +1,13 @@
+@import "variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import "hero";
+@import "trips";
+@import "busRental";
+@import "about";
+@import "teamgallery";
+@import "footer";
+// Your custom styles
+body {
+  font-family: 'Open Sans', sans-serif;
+}

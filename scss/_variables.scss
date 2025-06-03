@@ -1,0 +1,19 @@
+// Color Palette
+$primary: #c00000; // Roth Chur red
+$secondary: #2b2b2b; // dark gray
+$light-gray: #f7f7f7;
+$black: #000;
+$white: #fff;
+
+// Typography
+$font-family-sans-serif: 'Open Sans', sans-serif;
+$font-size-base: 1rem;
+$headings-font-weight: 700;
+$body-color: $black;
+
+// Buttons & Links
+$link-color: $primary;
+$link-hover-color: darken($primary, 10%);
+
+// Spacing
+$spacer: 1rem;
