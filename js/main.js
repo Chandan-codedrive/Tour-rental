@@ -50,6 +50,26 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
+// trips
+
+document.addEventListener("DOMContentLoaded", () => {
+  const title = document.querySelector(".title-reveal");
+  const subtitle = document.querySelector(".subtitle-reveal");
+
+  const observer = new IntersectionObserver(
+    ([entry]) => {
+      if (entry.isIntersecting) {
+        title.classList.add("fade-up");
+        subtitle.classList.add("fade-up");
+      }
+    },
+    { threshold: 0.3 }
+  );
+
+  observer.observe(title);
+});
+
+
 // buss rental
 // JavaScript
 document.addEventListener('DOMContentLoaded', function() {
